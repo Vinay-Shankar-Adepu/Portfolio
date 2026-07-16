@@ -29,8 +29,9 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap gap-4">
           <a
-            href="/resume/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
           >
             Resume
