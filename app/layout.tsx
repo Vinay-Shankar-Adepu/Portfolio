@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vinay Adepu | Software Engineer",
-  description: "Portfolio of Vinay Adepu, a full-stack and Flutter developer building scalable web, mobile, and cloud applications.",
+  title: {
+    default: "Vinay Adepu | Software Engineer",
+    template: "%s | Vinay Adepu",
+  },
+  description:
+    "Portfolio of Vinay Adepu, a Full Stack and Flutter Developer building scalable web, mobile, and cloud applications.",
 };
 
 export default function RootLayout({
@@ -27,7 +31,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+      </body>
     </html>
   );
 }
