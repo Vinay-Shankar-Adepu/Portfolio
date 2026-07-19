@@ -16,6 +16,10 @@ export const skills = [
     items: ["MongoDB", "Firebase", "Firestore", "MySQL", "Firebase Hosting"],
   },
   {
+    category: "Low-Code & BPM",
+    items: ["Appian", "Neutrinos"],
+  },
+  {
     category: "Tools",
     items: ["Git", "GitHub", "GitHub Actions", "Postman", "VS Code"],
   },
