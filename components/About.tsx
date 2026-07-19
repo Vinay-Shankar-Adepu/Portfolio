@@ -11,15 +11,14 @@ export default function About() {
 
       <div className="mt-8 max-w-4xl space-y-5 leading-8 text-slate-300">
         <p>
-          I&apos;m a Full Stack and Flutter Developer with hands-on experience
-          building mobile and web applications using React, Flutter, Node.js,
-          Firebase, MongoDB, and REST APIs.
+          I&apos;m a Full Stack and Flutter Developer with professional internship
+          and project-based experience building responsive web and mobile
+          applications.
         </p>
 
         <p>
-          I enjoy working on real-world products such as service platforms,
-          ordering systems, dashboards, payment workflows, and AI-integrated
-          applications.
+          I enjoy developing reliable, user-focused solutions and continuously
+          improving my skills across frontend and backend development.
         </p>
       </div>
     </section>

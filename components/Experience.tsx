@@ -20,7 +20,19 @@ export default function Experience() {
                 <h3 className="text-2xl font-bold">{item.title}</h3>
                 <p className="mt-1 text-cyan-400">{item.company}</p>
               </div>
-              <p className="text-sm text-slate-400">{item.period}</p>
+              <div className="text-sm text-slate-400 md:text-right">
+                <div className="flex flex-wrap items-center gap-2 md:justify-end">
+                  <span>{item.period}</span>
+                  {"current" in item && item.current && (
+                    <span className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-2.5 py-0.5 text-xs font-semibold text-cyan-400">
+                      Current
+                    </span>
+                  )}
+                </div>
+                {"location" in item && item.location && (
+                  <p className="mt-1">{item.location}</p>
+                )}
+              </div>
             </div>
 
             <p className="mt-5 leading-7 text-slate-300">{item.description}</p>
