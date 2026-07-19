@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     category: "Tools",
-    items: ["Git", "GitHub", "GitHub Actions", "Postman", "VS Code"],
+    items: ["Git", "GitHub", "GitHub Actions", "DBeaver", "Postman", "VS Code"],
   },
   {
     category: "AI / ML",
